@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TheVisualArtsNotebookV3</string>
+    <string name="visualArtsNotebook_screenTitle">Welcome to The Visual Arts Notebook</string>
+    <string name="loginButtonText">LOG IN</string>
+    <string name="registerButtonText">REGISTER</string>
+    <string name="logoDescriptionText">A Logo for the Virtual Arts Notebook</string>
+    <string name="aboutButtonText">ABOUT</string>
+</resources>
