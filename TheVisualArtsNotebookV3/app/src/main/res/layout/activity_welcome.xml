@@ -22,8 +22,9 @@
         android:layout_height="wrap_content"
         android:text="@string/visualArtsNotebook_screenTitle"
         android:textAlignment="center"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@id/virtualArtNotebookLogo"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/welcomePageAppLogo"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -40,7 +41,7 @@
         app:layout_constraintBottom_toTopOf="@id/registrationButton"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/virtualArtNotebookLogo" />
+        app:layout_constraintTop_toBottomOf="@id/welcomePageAppLogo" />
 
     <Button
         android:id="@+id/registrationButton"
@@ -69,7 +70,7 @@
         tools:layout_marginTop="100dp" />
 
     <ImageView
-        android:id="@+id/virtualArtNotebookLogo"
+        android:id="@+id/welcomePageAppLogo"
         android:layout_width="253dp"
         android:layout_height="222dp"
         android:layout_marginBottom="30dp"
@@ -78,7 +79,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/welcomeNotebookTitle"
-        app:srcCompat="@android:mipmap/sym_def_app_icon"
+        app:srcCompat="@drawable/virtualartsnotebooklogo"
         tools:layout_marginTop="35dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
